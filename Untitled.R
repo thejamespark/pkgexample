@@ -6,8 +6,6 @@ credentials::set_github_pat()
 install.packages("remotes")
 remotes::install_github("thejamespark/pkgexample")
 
-library(pkgexample)
-
 usethis::use_data(mtcars)
 
 install.packages('sinew')
@@ -17,3 +15,9 @@ mtcars
 install.packages("devtools")
 devtools::document()
 devtools::check()
+
+library(pkgexample)
+pkgexample::mtcars
+
+rm(mean0)
+
