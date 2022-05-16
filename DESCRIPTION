@@ -1,9 +1,9 @@
-Package: RTHON2020
+Package: pkgexample
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "Jinseob Kim",
-           family = "Kim",
+    person(given = "James",
+           family = "Park",
            role = c("aut", "cre"),
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
